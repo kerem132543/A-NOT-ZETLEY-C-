@@ -1,20 +1,70 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Not Özetleyici
 
-# Run and deploy your AI Studio app
+## Öğrenci Bilgileri
 
-This contains everything you need to run your app locally.
+* Ad Soyad: Kerem Doğru
+* Öğrenci Numarası: 24010509079
 
-View your app in AI Studio: https://ai.studio/apps/11bcab33-96d2-4bbb-94f3-8e1f882c2aa8
+## Projenin Amacı
 
-## Run Locally
+AI Not Özetleyici, kullanıcıların uzun metinleri, masalları, ödevleri, makaleleri ve ders notlarını yapay zeka desteğiyle kısa ve anlaşılır özetlere dönüştürmesini sağlayan bir web uygulamasıdır. Proje, kullanıcıların zamandan tasarruf etmesini ve önemli bilgilere daha hızlı ulaşmasını amaçlamaktadır.
 
-**Prerequisites:**  Node.js
+## Projenin Kısa Açıklaması
+
+Kullanıcı uygulamaya bir metin girer ve sistem Google Gemini yapay zeka modeli yardımıyla metni analiz ederek kısa bir özet oluşturur. Böylece uzun içerikler daha hızlı okunabilir ve anlaşılabilir hale gelir.
+
+## Kullanılan Teknolojiler ve Kütüphaneler
+
+* React
+* TypeScript
+* Vite
+* Google AI Studio
+* Gemini API
+* Google Stitch
+* HTML5
+* CSS3
+
+## Proje Klasör Yapısı
+
+```text
+proje/
+├── src/
+├── assets/
+├── App.tsx
+├── main.tsx
+├── index.css
+├── types.ts
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+## Kurulum Adımları
+
+1. Proje GitHub reposundan indirilir.
+2. Terminal açılır.
+3. `npm install` komutu çalıştırılır.
+4. Gerekli Gemini API anahtarı yapılandırılır.
+5. `npm run dev` komutu ile uygulama başlatılır.
+
+## Çalıştırma ve Kullanım Talimatları
+
+1. Uygulama açılır.
+2. Özetlenmek istenen metin giriş alanına yapıştırılır.
+3. "Özetle" butonuna tıklanır.
+4. Yapay zeka tarafından oluşturulan özet ekranda görüntülenir.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## GitHub Proje Bağlantısı
+
+https://github.com/kerem132543/A-NOT-ZETLEY-C-
+
+## Kaynakça
+
+* https://aistudio.google.com
+* https://ai.google.dev
+* https://stitch.withgoogle.com
+* https://react.dev
+* https://vitejs.dev
+* https://github.com
