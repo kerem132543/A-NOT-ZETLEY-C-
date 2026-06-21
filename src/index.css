@@ -1,0 +1,68 @@
+@theme {
+  --color-on-secondary-fixed: #191c1e;
+  --color-tertiary: #5a5c5e;
+  --color-primary-container: #2976c7;
+  --color-surface-variant: #e2e2e2;
+  --color-surface-tint: #0060ac;
+  --color-on-tertiary-container: #fcfcff;
+  --color-error: #ba1a1a;
+  --color-on-surface: #1a1c1c;
+  --color-surface-dim: #dadada;
+  --color-on-tertiary-fixed-variant: #454749;
+  --color-on-background: #1a1c1c;
+  --color-on-primary-fixed-variant: #004883;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e0e3e6;
+  --color-background: #f9f9f9;
+  --color-surface: #f9f9f9;
+  --color-surface-container-low: #f3f3f4;
+  --color-on-tertiary-fixed: #1a1c1e;
+  --color-tertiary-container: #737577;
+  --color-primary-fixed: #d4e3ff;
+  --color-on-primary-fixed: #001c39;
+  --color-on-secondary-fixed-variant: #44474a;
+  --color-primary: #005da7;
+  --color-error-container: #ffdad6;
+  --color-inverse-primary: #a4c9ff;
+  --color-outline: #717783;
+  --color-primary-fixed-dim: #a4c9ff;
+  --color-secondary-fixed-dim: #c4c7ca;
+  --color-on-secondary-container: #626567;
+  --color-inverse-surface: #2f3131;
+  --color-secondary-fixed: #e0e3e6;
+  --color-surface-container-highest: #e2e2e2;
+  --color-on-error: #ffffff;
+  --color-surface-container-high: #e8e8e8;
+  --color-inverse-on-surface: #f0f1f1;
+  --color-tertiary-fixed: #e2e2e5;
+  --color-secondary: #5b5f61;
+  --color-on-primary-container: #fdfcff;
+  --color-surface-bright: #f9f9f9;
+  --color-on-error-container: #93000a;
+  --color-on-surface-variant: #414751;
+  --color-surface-container: #eeeeee;
+  --color-on-tertiary: #ffffff;
+  --color-outline-variant: #c1c7d3;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-primary: #ffffff;
+  --color-tertiary-fixed-dim: #c6c6c9;
+
+  --spacing-stack-md: 1rem;
+  --spacing-card-padding: 1.25rem;
+  --spacing-container-margin: 1.25rem;
+  --spacing-gutter-md: 1rem;
+  --spacing-stack-sm: 0.5rem;
+  --spacing-stack-lg: 1.5rem;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+}

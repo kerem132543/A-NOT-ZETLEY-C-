@@ -1,0 +1,6 @@
+{
+  "name": "AI Not Özetleyici",
+  "description": "Akıllı analiz. Odaklı bilgi. Dijital sakinliğe hoş geldiniz. Karmaşık metinleri anında sadeleştiren AI tabanlı not özetleme uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
